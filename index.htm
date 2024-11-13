@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <style>
+        body {
+            background-color: #EDE8DC;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            text-align: center;
+            background-image: url(камера.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #FFFBE6;
+margin:20px;
+        }
+        .main-title {
+            font-size: 36px;
+            margin: 0;
+        }
+        .sub-title {
+            font-size: 24px;
+            color: #A5B68D;
+            margin: 10px 0;
+        }
+        .profile-photo {
+            border-radius: 50%;
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+        .welcome-message {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #A5B68D;
+            color: #FFF;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+img{height: 350px;
+width:auto;}
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #A5B68D;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-link {
+            color: rgb(98, 15, 15);
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .nav-link:hover {
+            color: white;
+        }
+        .nav-link:visited {
+            color: white;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #FFFBE6;
+        }
+        .achievements {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+       .achievement-card { background-color: #FFFFFF; border: 1px solid #E0E0E0; border-radius: 10px; width: 300px; padding: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); text-align: left; display: flex; flex-direction: column; align-items: center; /* Центрируем элементы по горизонтали */
+        .achievement-card h3 {
+            margin-top: 0;
+        }
+        .achievement-card img {
+            width: 150px;
+            height: 200px;
+            margin-bottom: 10px;
+
+        }
+        footer a:hover {
+            color: #A2D2DF;
+        }
+        footer a:visited {
+            color: #A5B68D;
+        }
+        footer a {
+            color: rgb(98, 15, 15);
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="main-title">Привет! Я Виктория Бородич — фотограф</h1>
+        <h2 class="sub-title">Запечатлеваю незабываемые моменты</h2>
+        <p class="welcome-message">Я специализируюсь на портретной и семейной фотографии, помогая вам сохранить самые важные моменты вашей жизни.</p>
+        <img src="я.jpg" alt="Виктория Бородич - фотограф" class="profile-photo">
+        <br>
+        <a href="https://web.telegram.org/k/#@vi_borodich" class="cta-button">Связаться со мной</a>
+    </header>
+    <nav>
+        <a href="#port" class="nav-link">Портфолио</a>
+        <a href="#proc" class="nav-link">Процесс</a>
+        <a href="#int" class="nav-link">Интересное</a>
+        <a href="#cont" class="nav-link">Контакты</a>
+    </nav>
+    <main>
+  <div class="achievements">
+            <div class="achievement-card">
+                <img src="vogue.jpg" alt="">
+                <h3>Публикации в журналах</h3>
+                <p>Мои работы были опубликованы в известных журналах, таких как Vogue и National Geographic.</p>
+            </div>
+            <div class="achievement-card">
+                <img src=" выставка.jpg" alt="">
+                <h3>Выставки</h3>
+                <p>Участвовала в международных выставках в Париже и Нью-Йорке, демонстрируя свои уникальные фотографии.</p>
+            </div>
+            <div class="achievement-card">
+                <img src="награда.jpg" alt="">
+                <h3>Награды</h3>
+                <p>Обладатель премий за лучшую портретную фотографию.</p>
+            </div>
+            <div class="achievement-card">
+                <img src="яяя.jpg" alt="">
+                <h3>Опыт работы</h3>
+                <p>Более 10 лет профессионального опыта в сфере фотографии.</p>
+            </div>
+        </div>
+        <div class="hobbies" id="hobbies">
+            <section>
+                <h2>Портфолио</h2>
+                <ul>
+                    <div class="info" id="port">
+                        
+                            <img src="семья11.jpg">
+                            <img src="семья12.jpg">
+                            <img src="семья13.jpg">
+                            <br>
+                            <img src="швед 3.jpg" alt="Модель Швед Анна" title="Модель Швед Анна">
+                            <img src="швед 1.jpg" alt="Модель Швед Анна" title="Модель Швед Анна">
+                            <img src="швед 2.jpg" alt="Модель Швед Анна" title="Модель Швед Анна">
+                            <br>
+                            <img src="семья21.jpg">
+                            <img src="семья22.jpg">
+                            <img src="семья23.jpg">
+                            <br>
+                            <img src="п.jpg" alt="Модель Ясюкевич Анна" title="Модель Ясюкевич Анна">
+                            <img src="п1.jpg" title="Модель Ясюкевич Анна">
+                            <img src="п2.jpg" title="Модель Ясюкевич Анна">
+                        
+                    </div>
+                </ul>
+            </section>
+        </div>
+      
+    </main>
+    <div class="info" id="int">
+        <section>
+            <h3 class="sub-title">Как выбрать студию?</h3>
+            <p>
+                Студий сейчас превеликое множество!
+                На любой вкус и цвет, как говорится!
+                Выбор студии напрямую зависит от тематики съемки.
+                Для съемки эксперта я бы рекомендовала студии, не перегруженные
+                большим количеством декора.
+                Так называемый минимализм никогда не выйдет из моды)
+                Так же я бы посоветовала рассмотеть студии, где есть бумажные фоны,
+                чтобы можно было сделать портреты.
+                Профессиональный фотограф всегда сможет помочь вам
+                с выбором нужной именно для ваших целей локации.
+            </p>
+            <img src="студии.jpg" width="500" height="300">
+        </section>
+    </div>
+    <div class="info" id="proc">
+        <section>
+            <h2>Если хотите окунуться в такую же атмосферу - я всегда к вашим услугам! </h2>
+            <video width="600" height="440" controls>
+                <source src="процесс.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </div>
+    <div class="info" id="cont">
+        <footer>
+            <section>
+                <p>Следите за мной в социальных сетях:</p>
+                <a href="https://www.instagram.com/vi_borodich?igsh=MWNvZ3Q2NGR3d25icw==">Instagram</a>
+                <a href="https://vk.com/vi.boro">VK</a>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
